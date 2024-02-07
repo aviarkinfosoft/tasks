@@ -1,0 +1,50 @@
+body {
+  background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: #fff; /* White background for the form card */
+  border-radius: 10px;
+  padding: 30px; /* Increased padding for better spacing */
+  width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Softer box shadow for depth */
+  transition: box-shadow 0.3s ease; /* Smooth transition effect */
+}
+
+.card:hover {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}
+
+
+.form-group {
+  margin-bottom: 30px;
+  margin-right:39px; /* Increased margin between form groups */
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 15px; /* Increased padding for input fields */
+  border-radius: 8px; /* Slightly rounded corners */
+  border: 1px solid #ccc;
+  background-color: #f9f9f9; /* Light grey background for input fields */
+}
+
+.display {
+  margin-top: 30px; /* Increased margin between form and display */
+}
+
+.display p {
+  margin-bottom: 15px; /* Adjusted margin for display paragraphs */
+}
