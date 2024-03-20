@@ -1,0 +1,11 @@
+/* static/css/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.logo {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+}
